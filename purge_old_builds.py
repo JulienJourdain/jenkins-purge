@@ -9,7 +9,7 @@ parser = argparse.ArgumentParser(description='Purge Jenkins job\'s builds')
 parser.add_argument('--server', help='Jenkins server')
 args = parser.parse_args()
 
-# In case of you have multiple Jenkins servers
+# In case of you have multiple Jenkins servers with different settings
 jenkinsServers = {
     'your_jenkins_server': {
         'url': 'http://your_jenkins_server:8080',
